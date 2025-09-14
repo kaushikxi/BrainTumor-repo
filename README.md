@@ -1,5 +1,5 @@
 # Braintumor-repo
-This research project combined BM3D filter for noise reduction in brain MRI images with a two-layered CNN model for brain tumor detection.
+This research project combined BM3D filter for noise reduction in brain MRI scans with a two-layered CNN model for brain tumor detection.
 The image dataset that was utilized is labeled and consists of a total of 253 Brain - MRI pictures. The dataset consists of 155 tumorous Brain MRI images and 98 non tumorous Brain MRI images. The dataset was divided into two sets: one for testing, which was comprised of 20 percent of the images, and one for training, which consisted of 80 percent of the images. 
 # CNN MODEL
 The CNN Model used is 3 layered with Maxpooling, Convo2D, and Dense Layers. Convolutional layers are responsible for extracting features from images. By using a set of learnable filters, these layers can detect patterns or features such as edges, textures or shapes at various spatial locations in the input images.	 Convo2D layers with activation function ReLu are used to perform convolutions on the input image.
